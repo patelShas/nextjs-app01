@@ -11,6 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        untrained: "#a5a794",
+        neet: "#5d514f",
       },
     },
   },

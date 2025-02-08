@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@theme {
+  --color-untrained: #a5a794;
+  --color-neet: #bebcc2;
+}
