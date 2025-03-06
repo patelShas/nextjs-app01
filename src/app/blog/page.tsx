@@ -1,14 +1,17 @@
-import { getPostSlugs } from "@/lib/posts-api";
+import { Post } from "@/interfaces/post";
+import { getAllPosts, getPostSlugs } from "@/lib/posts-api";
 
 export default async function Page() {
   // const posts = await getPosts();
-  const posts = [{ id: 1 }, { id: 2 }];
-  console.log(getPostSlugs());
+  const slugs = getPostSlugs();
+  const posts = getAllPosts();
+
+  // console.log(posts);
 
   return (
     <ul>
-      {posts.map((post: { id: any }) => (
-        <li key={post.id}>abracadabra</li>
+      {posts.map((post: Post) => (
+        <li key={post.slug}>{post.title}</li>
       ))}
     </ul>
   );

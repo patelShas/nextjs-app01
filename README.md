@@ -11,6 +11,9 @@ You've started ripping and tearing trying to restart. you might check out astro 
 
 03-03-2025 This is taking embarassingly long. Here's a few tangible goals:
 ✅create a few markdown files following your post interface
-✅create a method that can grab information from posts
-create a method (in a dedicated file) that can collect the markdown files into a list
-have your blog page grab it
+✅create a method that can grab slugs from posts
+✅create a method that can grab titles and excerpts from posts
+✅create a method (in a dedicated file) that can collect the markdown files into a list
+✅have your blog page grab it
+
+05-05-2025 Met previous goals. Tried out copilot and it was pretty useful. Next goal will be to set it up so that each markdown file can have its own page
