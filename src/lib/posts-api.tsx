@@ -1,10 +1,17 @@
-import { readdirSync, readFileSync } from "fs";
+import { existsSync, readdirSync, readFileSync } from "fs";
 import { join } from "path";
 import matter from "gray-matter";
 import { Post } from "@/interfaces/post";
 
 // creates a file path to the _posts directory
 const postsDirectory = join(process.cwd(), "_posts");
+
+// checks if a file with the given slug exists in the _posts directory
+export function isValidSlug(slug: string): boolean {
+  const realSlug = slug.replace(/\.md$/, "");
+  const fullPath = join(postsDirectory, `${realSlug}.md`);
+  return existsSync(fullPath);
+}
 
 // reads the directory and returns an array of file names
 export function getPostSlugs() {

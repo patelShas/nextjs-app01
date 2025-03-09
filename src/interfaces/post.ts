@@ -6,3 +6,9 @@ export type Post = {
   excerpt: string;
   content: string;
 };
+
+export type Params = {
+  params: Promise<{
+    slug: string;
+  }>;
+};

@@ -17,3 +17,14 @@ You've started ripping and tearing trying to restart. you might check out astro 
 ✅have your blog page grab it
 
 05-05-2025 Met previous goals. Tried out copilot and it was pretty useful. Next goal will be to set it up so that each markdown file can have its own page
+
+03-07-2025 Set up dynamic routing so that any blog post should point to a blog/slug thing. Currently though this doesn't lead to anything though.
+next steps
+the page should check if a matching post exists, otherwise
+create a default blog page (we don't see anything at that address., etc.)
+if matching post exists.
+grab title , info, details etc.
+If you can get this working the next step is actually filling in the details to this site... how do you decide what a side should look like?
+
+03-09-2025 Added in some functionality so that there will be a landing page for slugs that don't correspond to an actual post. next step is to make it grab content from the mrkdown posts.
+Done. Next step is too probably create real posts now instead of the dummy material. Then, come up with actual design for how this website ought to look.
