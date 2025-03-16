@@ -31,3 +31,5 @@ Done. Next step is too probably create real posts now instead of the dummy mater
 
 03-12-2025 Aesthetics moment. I need to make this look decent. I'll think I'll have it set such that all content is aligned to the center 1/2 on LG+ screens. i'll need to set a minimum size so that when you look at it on a phone it doesn't just shrink to the width of a finger. maybe i can have it so that on <=MD it is set to take up the whole screen.
 so the cosmetics are going smoothly but something unexpected happened - your blog pages are grabbing content from the markdown files but aren't actually converting them to html. you'll need to figure that out - maybe start with this video: https://www.youtube.com/watch?v=YC6LqIYVHxI
+
+03-16-2025 Good work. You made it show up nicely. You'll probably forget later so remember that if you wanna set CSS rules for a whole tag (h1, h3, link, etc.) go to src/app/globals.css. Next task is to continue on cosmetics

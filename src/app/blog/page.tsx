@@ -4,7 +4,6 @@ import Link from "next/link";
 
 export default async function Page() {
   // const posts = await getPosts();
-  const slugs = getPostSlugs();
   const posts = getAllPosts();
 
   // console.log(posts);
