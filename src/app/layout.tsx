@@ -17,19 +17,19 @@ export default function DashboardLayout({
       <body>
         {/* Layout UI */}
         {/* Place children where you want to render a page or nested layout */}
-        <div className="w-9/10 max-w-6xl mx-auto">
-          <div className="m-4 text-white ">
+        <div className="w-full max-w-6xl mx-auto">
+          <div className="m-4 text-white text-center">
             <p>
-              <span className="text-3xl ">Shashwat Patel</span>
+              <span className="text-3xl">Shashwat Patel</span>
               <br />
             </p>
-            <div className="flex flex-row justify-start gap-8">
+            <div className="flex flex-row justify-center gap-8">
               <Link href={"/"}>Home</Link>
               <Link href={"/about"}>About myself</Link>
               <Link href={"/blog"}>Blog</Link>
             </div>
           </div>
-          <main>{children}</main>
+          <main className="">{children}</main>
         </div>
       </body>
     </html>
