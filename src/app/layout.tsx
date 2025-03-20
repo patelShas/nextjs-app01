@@ -17,7 +17,7 @@ export default function DashboardLayout({
       <body>
         {/* Layout UI */}
         {/* Place children where you want to render a page or nested layout */}
-        <div className="w-full max-w-6xl mx-auto">
+        <div className="w-full max-w-3xl mx-auto">
           <div className="m-4 text-white text-center">
             <p>
               <span className="text-3xl">Shashwat Patel</span>
